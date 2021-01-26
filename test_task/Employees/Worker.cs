@@ -16,5 +16,10 @@ namespace test_task
         {
             return "some products";
         }
+
+        public override string ToString()
+        {
+            return $"Regular worker {FullName} with {Experience} years of experience ";
+        }
     }
 }

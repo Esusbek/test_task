@@ -24,5 +24,10 @@ namespace test_task
                 Console.WriteLine($"Assigned task to {worker.FullName}");
             }
         }
+
+        public override string ToString()
+        {
+            return $"Manager {FullName} with {Experience} years of experience ";
+        }
     }
 }

@@ -24,5 +24,10 @@ namespace test_task
                 Console.WriteLine($"Checked {worker.FullName}");
             }
         }
+
+        public override string ToString()
+        {
+            return $"Taskmaster {FullName} with {Experience} years of experience ";
+        }
     }
 }
