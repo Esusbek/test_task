@@ -1,15 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace test_task
+﻿namespace test_task
 {
     abstract class Employee
     {
         public int Experience { get; set; }
-        public string FullName { get; set; }
+        public string FullName { get;}
 
         public Employee(int exp, string name)
         {
